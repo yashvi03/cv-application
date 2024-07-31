@@ -1,0 +1,28 @@
+input,
+textarea {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-bottom: 10px;
+}
+
+textarea{
+    height: 100px;
+}
+
+.edu-heading,.exp-heading{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 12px 12px 12px 24px;
+
+}
+
+.icon{
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
